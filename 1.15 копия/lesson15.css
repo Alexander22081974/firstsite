@@ -1,0 +1,122 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: rgb(#ffff);
+    font-family:'Roboto', sans-serif;
+    margin: 0;
+}
+
+.head {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1300px;
+    min-height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 1vw;
+    justify-content: space-around;
+    
+}
+.myname {
+    max-width: 1300px;
+    color:rgb(72,61,139);
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 50px;
+    text-align: center;
+}
+.motorbike {
+    width: 150px;
+    height: 150px;
+}
+.main {
+    box-sizing:border-box;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 2vw;
+    flex-grow: 1; 
+}
+h2 {
+    color: rgb(200,50,0);
+}
+h3 {
+    color:rgb(200,50,0); 
+    font-size: 25px;
+}
+.figcaption {
+    color:rgb(200,50,0); 
+    font-weight: 600;
+    font-size: 24px;
+}
+blockquote {
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(50,205,50);
+    font-size: 30px;
+}
+.table {
+    border: 3px;
+    border-collapse:collapse;
+}
+td {
+    border: 3px solid green;
+    border-collapse: collapse;
+}
+
+#one {
+    color: rgb(0,0,205);
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 60px;
+}
+
+.landscape { 
+    width: 40%;
+    height: auto;
+}
+#name {
+    border: 5px solid green;
+    border-radius: 10px; 
+}
+#email {
+    border: 5px solid green;
+    border-radius: 10px;
+}
+.set {
+    border: 5px solid green;
+    border-radius: 10px;
+}
+.text {
+    width: 30%;
+    height: 100px;
+    resize: none;
+    border: 5px solid green;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+/*Footer*/
+.footer {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 16px;
+    min-height: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #213B7E;
+}
+.copy {
+    color: rgba(255,255,255,0.5);
+}
+.footer-link {
+    color: rgba(255,255,255,0.5);
+}
